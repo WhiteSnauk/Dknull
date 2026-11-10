@@ -1,0 +1,15 @@
+help
+> load samples/sequence_sample.json
+load samples/sequence_sample.json
+validate
+render sequence
+export markdown
+load samples/activity_sample.json
+render activity
+analyze
+export markdown
+plugins
+export mermaid
+load nonexistent.json
+load samples/sequence_sample.json
+render activity
